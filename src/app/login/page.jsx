@@ -19,24 +19,24 @@ export default function LoginPage() {
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState({ email: "", password: "" });
 
-  // === লজিক ১: ইউজার লগিন থাকলে হোমপেজে পাঠিয়ে দাও ===
+ 
   useEffect(() => {
     if (status === "authenticated") {
       router.replace("/"); 
     }
   }, [status, router]);
 
-  // ইনপুট হ্যান্ডেল করা
+
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  // সোশ্যাল লগিন হ্যান্ডেল করা
+
   const handleSocialLogin = (provider) => {
     signIn(provider, { callbackUrl: "/" }); 
   };
 
-  // ইমেইল পাসওয়ার্ড লগিন হ্যান্ডেল করা
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
@@ -135,14 +135,14 @@ export default function LoginPage() {
             {/* Social Buttons */}
             <div className="grid grid-cols-2 gap-4 mb-6">
               <button
-                onClick={() => handleSocialLogin("google")}
+                onClick={() => signIn("google")}
                 className="flex items-center justify-center cursor-pointer gap-2 border border-gray-200 py-3 rounded-lg hover:bg-gray-50 hover:border-gray-300 transition-all duration-300 transform active:scale-95"
               >
                 <FcGoogle className="text-2xl" />
                 <span className="font-semibold text-gray-700">Google</span>
               </button>
               <button
-                onClick={() => handleSocialLogin("github")}
+                onClick={() => signIn("github")}
                 className="flex items-center justify-center cursor-pointer gap-2 border border-gray-200 py-3 rounded-lg hover:bg-gray-50 hover:border-gray-300 transition-all duration-300 transform active:scale-95"
               >
                 <FaGithub className="text-2xl text-gray-800" />
