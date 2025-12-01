@@ -31,9 +31,9 @@ export default function LoginPage() {
   };
 
 
-  const handleSocialLogin = (provider) => {
-    signIn(provider, { callbackUrl: "/" }); 
-  };
+  // const handleSocialLogin = (provider) => {
+  //   signIn(provider, { callbackUrl: "/" }); 
+  // };
 
 
   const handleSubmit = async (e) => {

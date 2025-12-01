@@ -1,22 +1,21 @@
-import DishesClient from '@/components/Dishes/DishesClient';
+import DishesClient from "@/components/Dishes/DishesClient";
 
+const page = async () => {
+  const BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
 
-const page = async() => {
-        // fetch filters
-  const res = await fetch("http://localhost:5000/filters",  { cache: "no-store" });
-  const filtersData  = await res.json();
-  console.log(filtersData );
+  // fetch filters
+  const res = await fetch(`${BASE_URL}/filters`, { cache: "no-store" });
+  const filtersData = await res.json();
 
   // fetch products
-  const res2 = await fetch("http://localhost:5000/products",  { cache: "no-store" });
+  const res2 = await fetch(`${BASE_URL}/products`, { cache: "no-store" });
   const products = await res2.json();
-
 
   return (
     <div>
-        <DishesClient filtersData ={filtersData} products={products}></DishesClient>
+      <DishesClient filtersData={filtersData} products={products}></DishesClient>
     </div>
   )
 }
 
-export default page
+export default page;

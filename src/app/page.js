@@ -6,13 +6,15 @@ import Testimonial from './home/Testimonial';
 import OfferBanner from './home/OfferBanner';
 import Download from './home/Download';
 
-const page = async() => {
+const page = async () => {
+  const BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL;
+
   // fetch menus
-  const res = await fetch("http://localhost:5000/menus", { cache: "no-store" });
+  const res = await fetch(`${BASE_URL}/menus`, { cache: "no-store" });
   const menus = await res.json();
 
   // fetch top categories
-  const res2 = await fetch("http://localhost:5000/sideCategories", { cache: "no-store" });
+  const res2 = await fetch(`${BASE_URL}/sideCategories`, { cache: "no-store" });
   const categorys = await res2.json();
 
   return (
