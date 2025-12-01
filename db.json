@@ -1,0 +1,505 @@
+{
+  "menus": [
+    {
+      "id": 1,
+      "name": "Coffee",
+      "icon": "https://themes.coderthemes.com/yum_r/assets/coffee-1-22yhRgGq.png",
+      "items": [
+        {
+          "id": 101,
+          "title": "Espresso Coffee",
+          "description": "Rich and bold espresso shot made from premium Arabica beans, perfect for a quick energy boost.",
+          "price": 40.14,
+          "oldPrice": 45.0,
+          "rating": 4.5,
+          "reviews": 120,
+          "image": "https://themes.coderthemes.com/yum_r/assets/coffee-1-22yhRgGq.png"
+        },
+        {
+          "id": 102,
+          "title": "Iced Cold Coffee",
+          "description": "Refreshing chilled coffee blended with creamy milk and ice, topped with chocolate drizzle.",
+          "price": 49.75,
+          "oldPrice": 55.5,
+          "rating": 4.8,
+          "reviews": 340,
+          "image": "https://themes.coderthemes.com/yum_r/assets/coffee-2-QzMv3ePL.png"
+        },
+        {
+          "id": 103,
+          "title": "Flat White",
+          "description": "Smooth ristretto shots of espresso with silky steamed milk for a velvety texture.",
+          "price": 14.99,
+          "oldPrice": 18.0,
+          "rating": 4.2,
+          "reviews": 85,
+          "image": "https://themes.coderthemes.com/yum_r/assets/coffee-3-n2d24RfW.png"
+        },
+        {
+          "id": 104,
+          "title": "Cappuccino",
+          "description": "Classic Italian coffee with equal parts double espresso, steamed milk, and steamed milk foam.",
+          "price": 19.75,
+          "oldPrice": 22.5,
+          "rating": 4.6,
+          "reviews": 210,
+          "image": "https://themes.coderthemes.com/yum_r/assets/coffee-4-NfnfylJI.png"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Burger",
+      "icon": "https://themes.coderthemes.com/yum_r/assets/burger-1-l98IpFtt.png",
+      "items": [
+        {
+          "id": 201,
+          "title": "Classic Beef Burger",
+          "description": "Juicy grilled beef patty with fresh lettuce, tomato, and our secret house sauce.",
+          "price": 29.99,
+          "oldPrice": 35.0,
+          "rating": 4.7,
+          "reviews": 512,
+          "image": "https://themes.coderthemes.com/yum_r/assets/burger-1-l98IpFtt.png"
+        },
+        {
+          "id": 202,
+          "title": "Cheese Loaded Burger",
+          "description": "Overflowing with melted cheddar and mozzarella cheese for the ultimate cheesy experience.",
+          "price": 24.5,
+          "oldPrice": 30.0,
+          "rating": 4.9,
+          "reviews": 800,
+          "image": "https://themes.coderthemes.com/yum_r/assets/burger-2-81i9rF08.png"
+        },
+        {
+          "id": 203,
+          "title": "Double Patty Burger",
+          "description": "Two flame-grilled patties stacked high with crispy bacon and onion rings.",
+          "price": 34.1,
+          "oldPrice": 40.0,
+          "rating": 4.5,
+          "reviews": 320,
+          "image": "https://themes.coderthemes.com/yum_r/assets/burger-3-hXc8-gLm.png"
+        },
+        {
+          "id": 204,
+          "title": "Spicy Chicken Burger",
+          "description": "Crispy fried chicken fillet tossed in spicy buffalo sauce with cool ranch dressing.",
+          "price": 22.99,
+          "oldPrice": 28.0,
+          "rating": 4.3,
+          "reviews": 150,
+          "image": "https://themes.coderthemes.com/yum_r/assets/burger-4-Jb8XLAcu.png"
+        }
+      ]
+    },
+
+    {
+      "id": 3,
+      "name": "Noodles",
+      "icon": "https://themes.coderthemes.com/yum_r/assets/noodles-1-Ap8XVIhA.png",
+      "items": [
+        {
+          "id": 301,
+          "title": "Chicken Noodles",
+          "description": "Wok-tossed noodles with tender chicken chunks and colorful seasonal vegetables.",
+          "price": 18.5,
+          "oldPrice": 22.0,
+          "rating": 4.4,
+          "reviews": 190,
+          "image": "https://themes.coderthemes.com/yum_r/assets/noodles-1-Ap8XVIhA.png"
+        },
+        {
+          "id": 302,
+          "title": "Spicy Asian Noodles",
+          "description": "Authentic Asian flavors with a spicy kick, garlic, ginger, and soy sauce glaze.",
+          "price": 21.9,
+          "oldPrice": 25.0,
+          "rating": 4.6,
+          "reviews": 230,
+          "image": "https://themes.coderthemes.com/yum_r/assets/noodles-2-8hznum8N.png"
+        },
+        {
+          "id": 303,
+          "title": "Egg Hakka Noodles",
+          "description": "Classic street-style Hakka noodles tossed with scrambled eggs and green onions.",
+          "price": 16.5,
+          "oldPrice": 20.0,
+          "rating": 4.1,
+          "reviews": 95,
+          "image": "https://themes.coderthemes.com/yum_r/assets/noodles-1-Ap8XVIhA.png"
+        }
+      ]
+    },
+
+    {
+      "id": 4,
+      "name": "Pizza",
+      "icon": "https://themes.coderthemes.com/yum_r/assets/pizza-1-UFI5w-xH.png",
+      "items": [
+        {
+          "id": 401,
+          "title": "Cheese Pizza",
+          "description": "Simple yet delicious, topped with our signature tomato sauce and extra mozzarella.",
+          "price": 19.99,
+          "oldPrice": 25.0,
+          "rating": 4.2,
+          "reviews": 145,
+          "image": "https://themes.coderthemes.com/yum_r/assets/pizza-1-UFI5w-xH.png"
+        },
+        {
+          "id": 402,
+          "title": "Pepperoni Pizza",
+          "description": "Loaded with crispy pepperoni slices on a cheesy base. A fan favorite!",
+          "price": 25.5,
+          "oldPrice": 32.0,
+          "rating": 4.8,
+          "reviews": 600,
+          "image": "https://themes.coderthemes.com/yum_r/assets/pizza-2-pMe6yvDP.png"
+        },
+        {
+          "id": 403,
+          "title": "Veggie Delight Pizza",
+          "description": "Packed with bell peppers, onions, mushrooms, olives, and corn.",
+          "price": 22.7,
+          "oldPrice": 28.0,
+          "rating": 4.5,
+          "reviews": 210,
+          "image": "https://themes.coderthemes.com/yum_r/assets/pizza-3-68kC8y5z.png"
+        },
+        {
+          "id": 404,
+          "title": "Margherita Pizza",
+          "description": "Traditional Italian pizza with fresh basil, mozzarella, and tomato sauce.",
+          "price": 20.15,
+          "oldPrice": 24.0,
+          "rating": 4.3,
+          "reviews": 180,
+          "image": "https://themes.coderthemes.com/yum_r/assets/pizza-4-slOWSxaU.png"
+        }
+      ]
+    },
+
+    {
+      "id": 5,
+      "name": "Wrap",
+      "icon": "https://themes.coderthemes.com/yum_r/assets/wraps-1-3WBoJIOM.png",
+      "items": [
+        {
+          "id": 501,
+          "title": "Chicken Wrap",
+          "description": "Grilled chicken breast, fresh lettuce, and mayo wrapped in a soft tortilla.",
+          "price": 14.99,
+          "oldPrice": 18.0,
+          "rating": 4.4,
+          "reviews": 130,
+          "image": "https://themes.coderthemes.com/yum_r/assets/wraps-1-3WBoJIOM.png"
+        },
+        {
+          "id": 502,
+          "title": "Beef Wrap",
+          "description": "Seasoned beef strips with sautéed peppers and onions in a warm wrap.",
+          "price": 16.4,
+          "oldPrice": 20.0,
+          "rating": 4.6,
+          "reviews": 175,
+          "image": "https://themes.coderthemes.com/yum_r/assets/wraps-2-n-MtWJ-u.png"
+        },
+        {
+          "id": 503,
+          "title": "Veggie Wrap",
+          "description": "A healthy mix of grilled vegetables and hummus in a whole wheat wrap.",
+          "price": 12.8,
+          "oldPrice": 15.0,
+          "rating": 4.1,
+          "reviews": 90,
+          "image": "https://themes.coderthemes.com/yum_r/assets/wraps-3-_Nmv59mT.png"
+        },
+        {
+          "id": 504,
+          "title": "Mexican Wrap",
+          "description": "Spicy salsa, beans, rice, and cheese wrapped up for a fiesta of flavors.",
+          "price": 17.2,
+          "oldPrice": 21.0,
+          "rating": 4.5,
+          "reviews": 200,
+          "image": "https://themes.coderthemes.com/yum_r/assets/wraps-4-XOjuWV22.png"
+        }
+      ]
+    },
+
+    {
+      "id": 6,
+      "name": "Appetizers",
+      "icon": "https://themes.coderthemes.com/yum_r/assets/appetizer-1-_oGl0eex.png",
+      "items": [
+        {
+          "id": 601,
+          "title": "Crispy Fries",
+          "description": "Golden crispy french fries seasoned with sea salt and served with ketchup.",
+          "price": 9.99,
+          "oldPrice": 12.0,
+          "rating": 4.3,
+          "reviews": 400,
+          "image": "https://themes.coderthemes.com/yum_r/assets/appetizer-1-_oGl0eex.png"
+        },
+        {
+          "id": 602,
+          "title": "Chicken Wings",
+          "description": "Succulent chicken wings tossed in your choice of BBQ or spicy sauce.",
+          "price": 13.5,
+          "oldPrice": 16.0,
+          "rating": 4.7,
+          "reviews": 310,
+          "image": "https://themes.coderthemes.com/yum_r/assets/appetizer-2-JBE--oYS.png"
+        },
+        {
+          "id": 603,
+          "title": "Garlic Bread",
+          "description": "Toasted baguette slices topped with garlic butter and parsley.",
+          "price": 8.4,
+          "oldPrice": 10.0,
+          "rating": 4.2,
+          "reviews": 120,
+          "image": "https://themes.coderthemes.com/yum_r/assets/appetizer-3-r4zGQ95b.png"
+        },
+        {
+          "id": 604,
+          "title": "Fried Shrimp",
+          "description": "Crunchy breaded shrimp served with tangy tartar dipping sauce.",
+          "price": 15.7,
+          "oldPrice": 19.0,
+          "rating": 4.6,
+          "reviews": 180,
+          "image": "https://themes.coderthemes.com/yum_r/assets/appetizer-4-nvQD8Ddw.png"
+        }
+      ]
+    },
+
+    {
+      "id": 7,
+      "name": "Cake",
+      "icon": "https://themes.coderthemes.com/yum_r/assets/cake-1-QpmTLBXO.png",
+      "items": [
+        {
+          "id": 701,
+          "title": "Chocolate Cake",
+          "description": "Decadent triple-layer chocolate cake with rich fudge frosting.",
+          "price": 29.2,
+          "oldPrice": 35.0,
+          "rating": 4.9,
+          "reviews": 450,
+          "image": "https://themes.coderthemes.com/yum_r/assets/cake-1-QpmTLBXO.png"
+        },
+        {
+          "id": 702,
+          "title": "Vanilla Cream Cake",
+          "description": "Light and airy vanilla sponge cake layered with fresh cream and fruit.",
+          "price": 24.8,
+          "oldPrice": 30.0,
+          "rating": 4.4,
+          "reviews": 220,
+          "image": "https://themes.coderthemes.com/yum_r/assets/cake-2-nIs_K2-t.png"
+        },
+        {
+          "id": 703,
+          "title": "Strawberry Cake",
+          "description": "Sweet strawberry infused cake topped with fresh strawberries and glaze.",
+          "price": 26.5,
+          "oldPrice": 32.0,
+          "rating": 4.6,
+          "reviews": 190,
+          "image": "https://themes.coderthemes.com/yum_r/assets/cake-3-12o6CjHy.png"
+        },
+        {
+          "id": 704,
+          "title": "Black Forest Cake",
+          "description": "Classic chocolate sponge with cherries, whipped cream, and chocolate shavings.",
+          "price": 33.1,
+          "oldPrice": 38.0,
+          "rating": 4.8,
+          "reviews": 275,
+          "image": "https://themes.coderthemes.com/yum_r/assets/cake-4-Eofh6UxX.png"
+        }
+      ]
+    }
+  ],
+
+  "sideCategories": [
+    { "id": 1, "name": "Coffee", "image": "https://themes.coderthemes.com/yum_r/assets/cup-ewWWMIpt.svg" },
+    { "id": 2, "name": "Burger", "image": "https://themes.coderthemes.com/yum_r/assets/burger-1-eM0xP7uX.svg" },
+    { "id": 3, "name": "Noodles", "image": "https://themes.coderthemes.com/yum_r/assets/noodles-txyC1pya.svg" },
+    { "id": 4, "name": "Pizza", "image": "https://themes.coderthemes.com/yum_r/assets/pizza-1-UFI5w-xH.png" },
+    { "id": 5, "name": "Wrap", "image": "https://themes.coderthemes.com/yum_r/assets/taco-y4T-lboF.svg" },
+    { "id": 6, "name": "Appetizers", "image": "https://themes.coderthemes.com/yum_r/assets/skewer-2dg8iS5j.svg" },
+    { "id": 7, "name": "Cake", "image": "https://themes.coderthemes.com/yum_r/assets/dessert-SlVVk-5x.svg" }
+  ],
+
+"filters": {
+  "priceRange": {
+    "min": 23,
+    "max": 665
+  },
+
+  "restaurants": [
+    { "id": 1, "name": "Healthy Feast Corner" },
+    { "id": 2, "name": "Farmhouse Dish Heaven" },
+    { "id": 3, "name": "Kitchen Creation" },
+    { "id": 4, "name": "Country Cooking Cove" },
+    { "id": 5, "name": "Gourmet Flavor Nook" },
+    { "id": 6, "name": "Culinary Craft Cabin" },
+    { "id": 7, "name": "Rustic Spice Shack" },
+    { "id": 8, "name": "Savory Bites Cafe" }
+  ],
+
+  "ratings": [
+    { "id": 1, "value": 5 },
+    { "id": 2, "value": 4 },
+    { "id": 3, "value": 3 },
+    { "id": 4, "value": 2 },
+    { "id": 5, "value": 1 }
+  ],
+
+  "tags": [
+    { "id": 1, "name": "Pizza" },
+    { "id": 2, "name": "Burger" },
+    { "id": 3, "name": "Cake" },
+    { "id": 4, "name": "Desserts" },
+    { "id": 5, "name": "Coffee & Tea" },
+    { "id": 7, "name": "Italian Food" },
+    { "id": 9, "name": "Noodles" },
+    { "id": 10, "name": "Momos" }
+  ]
+},
+
+
+  "products": [
+    {
+      "id": 1,
+      "title": "Italian Pizza",
+      "image": "https://themes.coderthemes.com/yum_r/assets/pizza-04FDaPt1.png",
+      "restaurant": "Gourmet Flavor Nook",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "price": 39.5,
+      "oldPrice": 79,
+      "rating": 4.5,
+      "ratingCount": 252,
+      "tag": ["Pizza", "Italian Food"]
+    },
+    {
+      "id": 2,
+      "title": "Veg Burger",
+      "image": "https://themes.coderthemes.com/yum_r/assets/burger-fLOaQ2L6.png",
+      "restaurant": "Healthy Feast Corner",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "price": 4.83,
+      "oldPrice": 4.08,
+      "rating": 4.2,
+      "ratingCount": 162,
+      "tag": ["Burger"]
+    },
+    {
+      "id": 3,
+      "title": "Spaghetti",
+      "image": "https://themes.coderthemes.com/yum_r/assets/noodles-XrREaCsh.png",
+      "restaurant": "Country Cooking Cove",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "price": 23,
+      "oldPrice": 30,
+
+      "rating": 4.4,
+      "ratingCount": 687,
+      "tag": ["Italian Food", "Noodles"]
+    },
+    {
+      "id": 4,
+      "title": "Red Velvet Cake",
+      "image": "https://themes.coderthemes.com/yum_r/assets/red-velvet-pastry-ctHIanss.png",
+      "restaurant": "Kitchen Creation",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "price": 33.8,
+      "oldPrice": 35.9,
+      "rating": 4.7,
+      "ratingCount": 431,
+      "tag": ["Cake", "Desserts"]
+    },
+    {
+      "id": 5,
+      "title": "Mix Salad",
+      "image": "https://themes.coderthemes.com/yum_r/assets/spaghetti-EiEHNri1.png",
+      "restaurant": "Healthy Feast Corner",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "price": 6.45,
+      "oldPrice": 10,
+
+      "rating": 4.8,
+      "ratingCount": 625,
+      "tag": ["Healthy", "Salad"]
+    },
+    {
+      "id": 6,
+      "title": "Espresso Coffee",
+      "image": "https://themes.coderthemes.com/yum_r/assets/hot-chocolate-z77eODkd.png",
+      "restaurant": "Savory Bites Cafe",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "price": 2.85,
+      "oldPrice": 4.08,
+
+      "rating": 4.4,
+      "ratingCount": 245,
+      "tag": ["Coffee & Tea"]
+    },
+    {
+      "id": 7,
+      "title": "Momos",
+      "image": "https://themes.coderthemes.com/yum_r/assets/steamed-dumpling-NAMQbuSN.png",
+      "restaurant": "Savory Bites Cafe",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "price": 2.85,
+      "oldPrice": 4.08,
+
+      "rating": 4.4,
+      "ratingCount": 245,
+      "tag": ["Coffee & Tea"]
+    },
+    {
+      "id": 8,
+      "title": "Italian Food",
+      "image": "https://themes.coderthemes.com/yum_r/assets/veg-rice--54Pbrw8.png",
+      "restaurant": "Savory Bites Cafe",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "price": 2.85,
+      "oldPrice": 4.08,
+
+      "rating": 4.4,
+      "ratingCount": 245,
+      "tag": ["Coffee & Tea"]
+    },
+    {
+      "id": 9,
+      "title": "Espresso Coffee",
+      "image": "https://themes.coderthemes.com/yum_r/assets/chickpea-hummus-EhVy1T_R.png",
+      "restaurant": "Savory Bites Cafe",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "price": 2.85,
+      "oldPrice": 4.08,
+
+      "rating": 4.4,
+      "ratingCount": 245,
+      "tag": ["Coffee & Tea"]
+    },
+    {
+      "id": 10,
+      "title": "Espresso Coffee",
+      "image": "https://themes.coderthemes.com/yum_r/assets/hot-chocolate-z77eODkd.png",
+      "restaurant": "Savory Bites Cafe",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+      "price": 2.85,
+      "oldPrice": 4.08,
+      "rating": 4.4,
+      "ratingCount": 245,
+      "tag": ["Coffee & Tea"]
+    }
+  ]
+}
